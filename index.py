@@ -19,8 +19,8 @@ for i in range(n_cand):
 # eleitores
 while True:
     try:
-        n_elei = int(input('Quantos eleitores são? (Máximo de 9) '))
-        if n_elei <= 9:
+        n_elei = int(input('Quantos eleitores são? (Máximo de 9 e mínimo de 3) '))
+        if n_elei <= 9 and n_elei >= 3:
             break
         else:
              print('Número inválido, tente novamente.')
