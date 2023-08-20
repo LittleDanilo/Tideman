@@ -10,7 +10,6 @@ class Votes:
         # conferindo a posição de cada candidato nas listas de votação e dando seus pontos
         for v in votes: # pra cada voto na lista de votos
             voteList = votes[v]
-            print(voteList)
             for vote in voteList:
                 for i in range(9):
                     try:
