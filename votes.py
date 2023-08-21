@@ -1,4 +1,3 @@
-
 class Votes:
     def analise(votes, name_cand):
 
