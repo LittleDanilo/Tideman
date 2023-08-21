@@ -5,7 +5,7 @@ from votes import Votes
 while True:
     try:
         n_cand = int(input('Quantos candidatos são? (Máximo de 9) '))
-        if n_cand <= 9:
+        if n_cand <= 9 and n_cand > 0:
             break
         else:
             print('Número inválido, tente novamente.')
